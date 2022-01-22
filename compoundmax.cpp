@@ -4,6 +4,7 @@ using namespace std;
 void maxNumber(int x, int y);
 int firstNumber();
 int secondNumber();
+
 int main()
 {
     int f = firstNumber();
