@@ -1,15 +1,16 @@
 #include<iostream>
 using namespace std;
 int main()
-{   int n;
+{   
+    int n, i=0;
 
-     cout<<"enter value of N: ";
+    cout<<"enter value of N: ";
     cin>>n;
-    for ( int i = 1; i <=10 ; i++)
+    for ( i = 1; i <=10 ; i++)
     {
-     cout<<i*n<<endl;
+     cout<<n<<" * "<<i<<" = "<<i*n <<endl;
 
     }
-return 0;    
+    return 0;    
     
 }
