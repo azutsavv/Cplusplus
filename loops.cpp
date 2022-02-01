@@ -8,7 +8,8 @@ int main()
     while (i<=n)
     {
      cout<<i<<endl;
-     i++;    }
+     i++;    
+    }
 
 
 return 0;
