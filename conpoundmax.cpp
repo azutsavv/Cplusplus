@@ -12,4 +12,4 @@ int main()
     {
        cout<<"max is "<<y;} 
     return 0;
-    }
+}
