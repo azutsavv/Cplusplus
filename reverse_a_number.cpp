@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int n,sum=0,m,r;
+    int n,rev=0,m,r;
     
     cout<<"enter value of n :";
     cin>>n;
@@ -14,17 +14,11 @@ int main()
    {
        r=n%10;
        n=n/10;
-       sum=sum+(r*r*r);
+       rev=rev*10+r;
    
    }
-
-   if (sum==m)
-   {
-       cout<<"yes number is armstrong number :"<<m;
-   }
-   else
-   {
-       cout<<"given number is not armstrong number";
-   }
+   
+   cout<<rev;
+   
    return 0;
 }
