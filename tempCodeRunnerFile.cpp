@@ -1,1 +1,3 @@
-for
+
+        cout<<"enter values : ";
+        cin>>k;
