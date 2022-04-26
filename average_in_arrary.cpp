@@ -2,14 +2,16 @@
 using namespace std;
 int main()
 {
-    int A[100],n,k,sum=0;
-    float avg;
+    int n,k,sum=0;
     cout<<"enter number of values : ";
     cin>>n;
+    int A[n];
+    float avg;
     
+    cout<<"enter values : ";
     for (int i = 1; i <=n; i++)
     {   
-        cout<<"enter values : ";
+        
         cin>>A[i];
     }
     for (int j = 1; j <=n; j++)

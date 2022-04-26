@@ -1,3 +1,1 @@
-
-        cout<<"enter values : ";
-        cin>>k;
+ p=&x;

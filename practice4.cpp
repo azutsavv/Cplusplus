@@ -9,7 +9,7 @@ int main()
         {
            if (i>=j)
            {
-               cout<<"* ";
+               cout<<" *";
            }
            
         }
