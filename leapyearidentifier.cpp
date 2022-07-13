@@ -7,10 +7,8 @@ int main()
     cout<<"i can tell you about leap and century year"<< endl;
     cout<<"enter year : ";
     cin>>year;
-    if(year%4==0&&year%400==0) {
-        cout<<"century leap year";
-    }
-    else if(year%4==0) { 
+    if(year%4==0&&year%100==0&&year%400!=0) 
+    {
         cout<<"leap year";
     }
     else {
