@@ -13,13 +13,10 @@ using namespace std;
 
 int main()
 {
-    char *s;
-    cout<<"gve";
-    cin.getline(s,100);
-    cin>>s;
- 
-  cout<<strlen(s);
-   
+    char *p;
+    cin.getline(p,100);
+    cout<<strlen(p);
+
     return 0;
 }
 //problem in this programme//
