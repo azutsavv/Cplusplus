@@ -7,6 +7,11 @@ private:
     int breadth;
 
 public:
+
+    int rect()
+    {
+        
+    }
     void setLength(int l)
     {
         if(l>=0)
